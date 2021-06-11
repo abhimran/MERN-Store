@@ -1,1 +1,1 @@
-# MERN-Store
+Mern Stack e-commerce store
