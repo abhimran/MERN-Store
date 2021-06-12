@@ -1,11 +1,18 @@
-import './App.css';
+import React from 'react';
+import Footer from './component/Footer';
+import Header from './component/Header';
+import { Container } from 'react-bootstrap';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Hello MERN
-    </div>
+    <>
+      <Header />
+      <main className={`py-3`}>
+        <Container>Welcome to proshop!</Container>
+      </main>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
